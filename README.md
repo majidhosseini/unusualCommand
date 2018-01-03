@@ -7,4 +7,4 @@ $ ssh-add ~/.ssh/id_rsa
 > copy in clipboard
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
 > Test yours
-# ssh -T git@github.com
+# ssh -T [EMAIL]
