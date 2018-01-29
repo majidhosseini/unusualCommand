@@ -1,1 +1,8 @@
  <location path="." inheritInChildApplications="false">
+
+for cors delete and put
+ <system.webServer>
+  <modules runAllManagedModulesForAllRequests="false">
+    <remove name="WebDAVModule" />
+  </modules>
+ </system.webServer>
