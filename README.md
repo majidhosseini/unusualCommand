@@ -8,3 +8,6 @@ $ ssh-add ~/.ssh/id_rsa
 $ xclip -sel clip < ~/.ssh/id_rsa.pub
 > Test yours
 # ssh -T [EMAIL]
+
+sudo visudo
+[user] ALL=(ALL) NOPASSWD: /usr/bin/openconnect
